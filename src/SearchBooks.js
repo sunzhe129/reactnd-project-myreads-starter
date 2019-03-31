@@ -27,7 +27,6 @@ class SearchBooks extends Component {
                   <input
                     type="text"
                     placeholder="Search by title or author"
-                    value={query}
                     onChange={(event) => this.props.onSearchBooks(event.target.value)}
                   />
                 </div>
